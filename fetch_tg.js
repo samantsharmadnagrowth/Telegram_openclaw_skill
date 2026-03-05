@@ -3,8 +3,8 @@ const { StringSession } = require("telegram/sessions");
 const fs = require("fs");
 
 // --- CONFIGURATION ---
-const apiId = 30972150;             // <--- PUT YOUR API ID HERE
-const apiHash = "d4d1bd4591dc991b4b1461ec0d57cd94";  // <--- PUT YOUR API HASH HERE
+const apiId = 30XXXX50;             // <--- PUT YOUR API ID HERE
+const apiHash = "d4d1bdXXXXXXXXXXXXXXXcd94";  // <--- PUT YOUR API HASH HERE
 const sessionFile = `${__dirname}/session.txt`;
 
 let stringSession = new StringSession("");
@@ -65,4 +65,5 @@ const limit = process.argv.includes("--limit") ? parseInt(process.argv[process.a
         console.log("⚠️ Telegram fetcher not properly configured. Please check API credentials and session setup.");
         process.exit(1);
     }
+
 })();
