@@ -1,4 +1,4 @@
-# Openclaw Skill to Fetch Telegram Message
+# Openclaw Skill to Fetch Telegram Messages
 
 OpenClaw skill that enables users to fetch Telegram through the OpenClaw AI agent.
 It is a simple Node.js tool that fetches and displays the latest messages from your Telegram chats using the GramJS library.
