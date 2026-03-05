@@ -66,4 +66,4 @@ node fetch_tg.js --limit 10
 
 ## ⚠️ Important Note
 
-This tool uses your personal Telegram API credentials. Avoid sharing your `apiId`, `apiHash`, or `session.txt` with anyone.
+This tool uses your personal Telegram API credentials. Avoid sharing your `apiId`, `apiHash`, or `session.txt` with anyone. And before running the code, add your `apiId`and `apiHash` in the fetch_tg.js file. 
